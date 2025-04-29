@@ -1,0 +1,65 @@
+
+*{
+    margin: 2;
+    padding: 2;
+    box-sizing: border-box;
+}
+ 
+body{
+    font-family: 'Times Nwe Roman';
+    background-color: #e097d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ 
+.calculator{
+    background-color: #c80cb8;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 310px;
+    text-align: center;
+}
+ 
+h1{
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #2f142c;
+}
+ 
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+ 
+.item{
+    background-color: #ad1a7e;
+    color: rgb(38, 2, 39);
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-radius: 10px;
+}
+ 
+.item:hover{
+    background-color: #eb06c1;
+    transform: translateY(-4px);
+}
+
+.display{
+    background-color: #f4cbf2f3;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

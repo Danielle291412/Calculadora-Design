@@ -1,0 +1,39 @@
+.buttons{
+    padding: 10px;
+    background-color: rgb(107, 76, 109);
+    color: rgb(146, 26, 140);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 60px;
+    border: 0px;
+}
+
+.container{
+    background-color: rgba(201, 237, 250, 1);
+    padding: 50px;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10%;
+    border: 0px;
+}
+
+button{
+    background-color: rgba(189, 237, 255, 1);
+    color: black;
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;   
+}
